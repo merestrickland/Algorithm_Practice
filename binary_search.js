@@ -48,7 +48,11 @@ const binary_search = (list, item) => {
   }
 }
 
+//must be sorted
 const my_list = [1, 3, 5, 7, 9]
 
 //the following should return 1, which is the position index of the number 3
 binary_search(my_list, 3)
+
+//this should return null, because -1 does not exist in my_list
+binary_search(my_list, -1)
