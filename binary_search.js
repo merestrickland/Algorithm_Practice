@@ -16,6 +16,7 @@
 // }
 
 // console.log(low)
+//console.log('will I ever understand?')
 
 
 const binary_search = (list, item) => {
